@@ -53,4 +53,28 @@ elif Escolha == '4':
     else:
         print(f'O número {N1} é ímpar.')
 
+elif Escolha == '5':
+    dividir = N1/N2
+    if N1 % N2 == 0:
+        print(f'O número {N1} é divisivel por N2.')
+    else:
+        print(f'O número {N1} não é divisivel por N2.')
+
+elif Escolha == '6':
+    if N1>N2:
+        print(f'Os números em ordem Crescente são: {N1}, {N2},')
+    else:
+        print(f'Os números em ordem Crescente são: {N2}, {N1},')
+
+elif Escolha == '7':
+    numeros = [N1, N2, N3]
+    print(max(numeros))
+
+elif Escolha == '8':
+    if (N1+N2 > N3) or (N2+N3 > N1) or (N1+N3 > N2):
+        print(f'Os números são capazes de formarem um triângulo')
+    else:
+        print(f'Os números não são capazes de formarem um triângulo')
+        
+
 
